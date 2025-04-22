@@ -1,0 +1,23 @@
+:root {
+    /* Palette principale */
+    --primary-color: #C51F5D;
+    --tertiary-color: #ff1994;
+    --background-dark: #141D26;
+    --secondary-color: #243447;
+    --text-light: #E2E2D2;
+    --accent-color: #FFFFFF;
+  
+    /* Typographies */
+    --font-orbitron: 'Orbitron', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-exo2: 'Exo 2', sans-serif;
+  
+    /* 🔥 Couleurs contrastées pour animations, hover, etc. */
+    --primary-contrast: #FF4F81;         /* plus flashy que --primary-color */
+    --tertiary-contrast: #FF69B4;        /* rose fluo, plus éclatant */
+    --background-light: #1A2634;         /* version plus claire du background */
+    --secondary-contrast: #3C5A72;       /* bleu plus clair et vibrant */
+    --text-dark: #121212;                /* pour texte sombre sur fond clair */
+    --accent-contrast: #FFD700;          /* doré pour attirer l’attention */
+  }
+  

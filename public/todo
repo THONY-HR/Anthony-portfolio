@@ -1,0 +1,22 @@
+Navigation:
+    * Gauche:
+        - Mon logo
+        - Mon Nom
+    * Droite:
+        - Ma personnalite
+        - Le developpement
+        - Contactez-moi
+        - Mode (nuit/jour)
+
+    *.* Mode Responive:
+        * Gauche:
+            - Mon logo
+            - Mon Nom
+        * Droite:
+            - Mode (nuit/jour)
+
+Ma personnalite:
+    * Presentation:
+        - Développeur Frontend
+        - Développeur Backend
+        - Designer - UI/UX
