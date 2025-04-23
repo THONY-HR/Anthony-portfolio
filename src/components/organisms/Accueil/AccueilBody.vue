@@ -33,6 +33,7 @@ export default {
 }
 
 .about {
+  margin-top: 15rem;
   width: 100%;
   min-height: 747px;
   display: flex;
@@ -43,4 +44,16 @@ export default {
   background: var(--background-dark);
 }
 
+@media (max-width: 768px) {
+  .about{
+    text-align: center;
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about{
+    margin-top: 2rem;
+  }
+}
 </style>

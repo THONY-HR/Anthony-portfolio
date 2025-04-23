@@ -11,8 +11,8 @@
         </p>
         <Button libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">
-          <li><IconeDeplacable src="/Anthony-icon/logo.jpeg" /></li>
-          <li><IconeDeplacable src="/Anthony-icon/logo.jpeg" /></li>
+          <li><IconeDeplacable imgHeight="200" imgWidth="200" src="/Anthony-icon/astronote.png" /></li>
+          <li><IconeDeplacable imgHeight="300" imgWidth="200" src="/Anthony-icon/fusee.png" /></li>
         </ul>
          
     </div>
@@ -39,8 +39,9 @@
       list-style: none;
       display: flex;
       position: absolute;
-      gap: 37rem;
-      margin-top: -18rem;
+      gap: 40rem;
+      margin-top: -25rem;
+      margin-left: -12rem;
     }
     .header_top {
         margin-bottom: -5rem;

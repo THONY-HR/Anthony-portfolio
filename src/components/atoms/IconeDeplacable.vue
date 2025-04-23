@@ -90,8 +90,11 @@
     transition: transform 0.4s ease;
     user-select: none;
     -webkit-user-drag: none;
+    font-family: var(--font-poppins);
   }
-
+  .icone-wrapper img{
+    border-radius: 0.5rem;
+  }
   .floating-icon {
     width: 100%;
     height: 100%;
