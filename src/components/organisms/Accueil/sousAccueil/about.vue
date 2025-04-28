@@ -5,28 +5,28 @@
     </div>
     <div class="competence">
       <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/public/Anthony-icon/backEnd.png">
-        <InconComp src="/public/Anthony-icon/front/vue.png" alt="VueJS" />
-        <InconComp src="/public/Anthony-icon/front/ang.png" alt="Angular" />
-        <InconComp src="/public/Anthony-icon/front/js.png" alt="JavaScript" />
-        <InconComp src="/public/Anthony-icon/front/ts.png" alt="TypeScript" />
-        <InconComp src="/public/Anthony-icon/front/html.png" alt="HTML" />
-        <InconComp src="/public/Anthony-icon/front/css.png" alt="CSS" />
+        <InconComp src="/Anthony-icon/front/vue.png" alt="VueJS" />
+        <InconComp src="/Anthony-icon/front/ang.png" alt="Angular" />
+        <InconComp src="/Anthony-icon/front/js.png" alt="JavaScript" />
+        <InconComp src="/Anthony-icon/front/ts.png" alt="TypeScript" />
+        <InconComp src="/Anthony-icon/front/html.png" alt="HTML" />
+        <InconComp src="/Anthony-icon/front/css.png" alt="CSS" />
       </Bloc>
-      <Bloc vitesse="8" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Back-End" moi-emote="/public/Anthony-icon/frontEnd.png">
-        <InconComp src="/public/Anthony-icon/back/c.png" alt="Language C" />
-        <InconComp src="/public/Anthony-icon/back/java.png" alt="Java" />
-        <InconComp src="/public/Anthony-icon/back/node.png" alt="Node" />
-        <InconComp src="/public/Anthony-icon/back/perl.png" alt="Perl" />
-        <InconComp src="/public/Anthony-icon/back/php.png" alt="PHP" />
-        <InconComp src="/public/Anthony-icon/back/python.png" alt="Python" />
+      <Bloc vitesse="8" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Back-End" moi-emote="/Anthony-icon/frontEnd.png">
+        <InconComp src="/Anthony-icon/back/c.png" alt="Language C" />
+        <InconComp src="/Anthony-icon/back/java.png" alt="Java" />
+        <InconComp src="/Anthony-icon/back/node.png" alt="Node" />
+        <InconComp src="/Anthony-icon/back/perl.png" alt="Perl" />
+        <InconComp src="/Anthony-icon/back/php.png" alt="PHP" />
+        <InconComp src="/Anthony-icon/back/python.png" alt="Python" />
       </Bloc>
-      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Designer-UI/UX" moi-emote="/public/Anthony-icon/UI_UX.png" >
-        <InconComp src="/public/Anthony-icon/UI_UX/illustrator.png" alt="Illustrator" />
-        <InconComp src="/public/Anthony-icon/UI_UX/photoshop.png" alt="Photoshop" />
-        <InconComp src="/public/Anthony-icon/UI_UX/indesign.png" alt="InDesign" />
-        <InconComp src="/public/Anthony-icon/UI_UX/xd.png" alt="XD" />
-        <InconComp src="/public/Anthony-icon/UI_UX/premiere-pro.png" alt="Premier-pro" />
-        <InconComp src="/public/Anthony-icon/UI_UX/figma.png" alt="Figma" />
+      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Designer-UI/UX" moi-emote="/Anthony-icon/UI_UX.png" >
+        <InconComp src="/Anthony-icon/UI_UX/illustrator.png" alt="Illustrator" />
+        <InconComp src="/Anthony-icon/UI_UX/photoshop.png" alt="Photoshop" />
+        <InconComp src="/Anthony-icon/UI_UX/indesign.png" alt="InDesign" />
+        <InconComp src="/Anthony-icon/UI_UX/xd.png" alt="XD" />
+        <InconComp src="/Anthony-icon/UI_UX/premiere-pro.png" alt="Premier-pro" />
+        <InconComp src="/Anthony-icon/UI_UX/figma.png" alt="Figma" />
       </Bloc>
     </div>
     <section class="info-pers">
