@@ -11,8 +11,8 @@
         </p>
         <Button libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">
-          <li><IconeDeplacable imgHeight="200" imgWidth="200" src="/Anthony-icon/astronote.png" /></li>
-          <li><IconeDeplacable imgHeight="300" imgWidth="200" src="/Anthony-icon/fusee.png" /></li>
+          <li><IconeDeplacable imgHeight="180" imgWidth="180" src="/Anthony-icon/astronote.png" /></li>
+          <li><IconeDeplacable imgHeight="200" imgWidth="200" src="/Anthony-icon/fusee.png" /></li>
         </ul>
          
     </div>

@@ -21,13 +21,17 @@
         <InconComp src="/public/Anthony-icon/back/python.png" alt="Python" />
       </Bloc>
       <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Designer-UI/UX" moi-emote="/public/Anthony-icon/UI_UX.png" >
-        <InconComp src="/public/Anthony-icon/back/node.png" alt="VueJS" />
-        <InconComp src="/public/Anthony-icon/back/node.png" alt="JavaScript" />
+        <InconComp src="/public/Anthony-icon/UI_UX/illustrator.png" alt="Illustrator" />
+        <InconComp src="/public/Anthony-icon/UI_UX/photoshop.png" alt="Photoshop" />
+        <InconComp src="/public/Anthony-icon/UI_UX/indesign.png" alt="InDesign" />
+        <InconComp src="/public/Anthony-icon/UI_UX/xd.png" alt="XD" />
+        <InconComp src="/public/Anthony-icon/UI_UX/premiere-pro.png" alt="Premier-pro" />
+        <InconComp src="/public/Anthony-icon/UI_UX/figma.png" alt="Figma" />
       </Bloc>
     </div>
     <section class="info-pers">
       <InfoPers />
-    </section>
+    </section>  
   </div>
 </template>
 
