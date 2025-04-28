@@ -4,7 +4,7 @@
       <TitreAnime text="Présentation" />
     </div>
     <div class="competence">
-      <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/public/Anthony-icon/backEnd.png">
+      <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/Anthony-icon/backEnd.png">
         <InconComp src="/Anthony-icon/front/vue.png" alt="VueJS" />
         <InconComp src="/Anthony-icon/front/ang.png" alt="Angular" />
         <InconComp src="/Anthony-icon/front/js.png" alt="JavaScript" />
