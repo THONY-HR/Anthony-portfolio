@@ -118,6 +118,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .bg {
@@ -125,7 +126,10 @@ export default {
   top: 5px;
   left: 5px;
   z-index: 2;
-  background: var(--accent-color);
+  background-color: transparent;
+    background-image: radial-gradient(var(--tertiary-color) 1px,var(--accent-color) 1px);
+    background-size: 30px 30px;
+
   backdrop-filter: blur(24px);
   border-radius: 10px;
   outline: 3px solid var(--accent-color);

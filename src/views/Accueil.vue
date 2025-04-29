@@ -1,5 +1,5 @@
 <template>
-  <main class="main-container">
+  <main class="container">
     <AccueilHeader />
     <AccueilBody />
     <AccueilFooter />
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style scoped>
-.main-container {
+.container {
   background-color: var(--background-dark);
   min-height: 100vh;
   width: 100%;
