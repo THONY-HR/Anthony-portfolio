@@ -37,14 +37,14 @@
   <style scoped>
     #contener{
       display: flex;
-      height: 500px;
-      width: 1000px;
+      height: 700px;
+      width: 1533px;
     }
     .personnage{
       background-color: aliceblue;
       border-radius: 5px;
       margin-right: 0.5rem;
-      width: 100%;
+      width: 150%;
       height: 100%;
     }
     .stack{
@@ -66,6 +66,34 @@
       flex-direction: column;
       gap: 0.5rem;
     }
+    @media (max-width: 1440px) {
+      #contener{
+        display: flex;
+        height: 500px;
+        width: 1250px;
+      }
+      .stack-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+    @media (max-width: 1024px) {
+      #contener{
+        display: flex;
+        height: 500px;
+        width: 1000px;
+      }
+      .stack-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
     @media (max-width: 768px) {
       #contener {
         display: flex;
@@ -80,6 +108,10 @@
         display: flex;
         flex-direction: row;
         gap: 0.5rem;
+      }
+      .personnage{
+        width: 100%;
+        height: 100%;
       }
     }
     @media (max-width: 435px) {
