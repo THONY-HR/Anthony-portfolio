@@ -75,12 +75,12 @@ export default {
   font-family: var(--font-exo2);
   background-color: transparent;
   z-index: 3;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .titre-fixe h1 {
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 0.2rem;
   margin: 0;
   margin-bottom: 1rem;
@@ -203,6 +203,9 @@ export default {
     margin-top: 0.5rem;
   }
   .bg{
+    background-color: transparent;
+    background-image: radial-gradient(var(--tertiary-color) 1px,var(--accent-color) 1px);
+    background-size: 30px 30px;
     width: 290px;
   }
   .bloc {
@@ -216,6 +219,7 @@ export default {
   }
 
   .iconComp {
+    margin-left: -2rem;
     gap: 8px;
   }
 }
