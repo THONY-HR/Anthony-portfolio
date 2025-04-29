@@ -125,6 +125,7 @@ export default {
 
   .competence {
     display: list-item;
+    list-style: none;
   }
 }
 </style>

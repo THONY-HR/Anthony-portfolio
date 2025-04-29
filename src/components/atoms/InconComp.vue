@@ -137,7 +137,6 @@ export default {
   .tooltip-desktop {
     display: none !important;
   }
-
   .tooltip-mobile {
     display: block !important;
   }
