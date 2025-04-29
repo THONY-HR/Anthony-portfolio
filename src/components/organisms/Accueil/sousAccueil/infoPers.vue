@@ -5,51 +5,58 @@
         <div class="contenu">
           <h1>Le personnage</h1>
           <p>
-            Victor alias Vik, une personne simple et curieuse, passionné par la compréhension et 
-            la construction de solutions innovantes. En tant que développeur JavaScript / TypeScript, 
-            j'ai travaillé en freelance, pour une agence et en collaboration dans un incubateur. 
-            Ces expériences m'ont permis de développer mon sens de l'analyse et de la compréhension 
-            des besoins clients et utilisateurs, afin de leur proposer des (micro)services sur mesure. 
-            Soucieux de toujours progresser, je suis constamment en quête de nouvelles connaissances et 
-            de défis à relever.
-          </p>          
+            Je m'appelle HERINANTENAINA Rantonrina Anthony, passionné par le développement web, le design d'interfaces et 
+            la création de solutions numériques innovantes. Curieux, rigoureux et créatif, j'ai construit un profil polyvalent 
+            mêlant développement full-stack, UI/UX design, graphisme et gestion de projets. J'aime concevoir des expériences 
+            utilisateur cohérentes, performantes et esthétiques, en alliant technique et sens du détail visuel.
+          </p>         
         </div>
         <div class="image">
-          <img src="/public/Anthony-icon/astronote.png">
+          <img src="/public/Anthony-icon/UI_UX.png">
         </div>
       </div>
       <div class="partie">
         <div class="contenu">
-          <h1>Le personnage</h1>
+          <h1>Mes origines</h1>
           <p>
-            Victor alias Vik, une personne simple et curieuse, passionné par la compréhension et 
-            la construction de solutions innovantes. En tant que développeur JavaScript / TypeScript, 
-            j'ai travaillé en freelance, pour une agence et en collaboration dans un incubateur. 
-            Ces expériences m'ont permis de développer mon sens de l'analyse et de la compréhension 
-            des besoins clients et utilisateurs, afin de leur proposer des (micro)services sur mesure. 
-            Soucieux de toujours progresser, je suis constamment en quête de nouvelles connaissances et 
-            de défis à relever.
+            Mon parcours m'a amené à explorer des univers variés : programmation (Java, TypeScript, Python...), 
+            développement web et mobile, conception graphique, et projets complets comme STELLAR. 
+            Avec chaque nouvelle expérience — personnelle, académique ou professionnelle — j'ai affiné ma vision 
+            du produit et renforcé mes compétences techniques et créatives. Cette diversité fait aujourd'hui ma force : 
+            une approche transversale qui relie code, design et stratégie.
           </p>          
         </div>
         <div class="image">
-          <img src="/public/Anthony-icon/astronote.png">
+          <img src="/public/Anthony-icon/backEnd.png">
         </div>
       </div>
       <div class="partie">
         <div class="contenu">
-          <h1>Le personnage</h1>
+          <h1>Le Parfait développeur ?</h1>
           <p>
-            Victor alias Vik, une personne simple et curieuse, passionné par la compréhension et 
-            la construction de solutions innovantes. En tant que développeur JavaScript / TypeScript, 
-            j'ai travaillé en freelance, pour une agence et en collaboration dans un incubateur. 
-            Ces expériences m'ont permis de développer mon sens de l'analyse et de la compréhension 
-            des besoins clients et utilisateurs, afin de leur proposer des (micro)services sur mesure. 
-            Soucieux de toujours progresser, je suis constamment en quête de nouvelles connaissances et 
-            de défis à relever.
+            Il n'existe pas, mais j'essaie chaque jour de m'en rapprocher. Mon approche repose sur la remise en question, 
+            la curiosité et la recherche d'amélioration continue. J'accorde autant d'importance au code propre et 
+            maintenable qu'à l'expérience utilisateur ou à la cohérence visuelle. C'est cette exigence qui me pousse 
+            à toujours aller plus loin.
           </p>          
         </div>
         <div class="image">
-          <img src="/public/Anthony-icon/astronote.png">
+          <img src="/public/Anthony-icon/frontEnd.png">
+        </div>
+      </div>
+      <div class="partie">
+        <div class="contenu">
+          <h1>Mes objectifs</h1>
+          <p>
+            Je veux continuer à apprendre, créer et évoluer dans des projets stimulants. Mon cœur balance entre le 
+            Front-end et le Back-end, avec un intérêt particulier pour les frameworks modernes comme Next.js 14 qui 
+            unifient les deux mondes. Je souhaite contribuer à des projets ambitieux, où je peux allier développement, 
+            design et réflexion produit, tout en mettant en œuvre des pratiques solides : tests, CI/CD, accessibilité, 
+            performance et bonnes pratiques d'architecture. Mon but : allier esthétique, technique et impact.
+          </p>          
+        </div>
+        <div class="image">
+          <img src="/public/Anthony-icon/fusee.png">
         </div>
       </div>
     </div>
@@ -128,7 +135,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    letter-spacing: 0.17ch;
+    text-align: center;
     line-height: 1.6;
   }
   .partie .contenu h1{
@@ -137,7 +144,6 @@
     font-weight: 600;
     font-size: 35px;
   }
-
 
 
 

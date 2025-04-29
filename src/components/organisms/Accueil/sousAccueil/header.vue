@@ -4,7 +4,10 @@
       </div>
       
       <div class="header_content">
-        <h1 class="header_title">Développeur<br />FullStack</h1>
+        <h1 class="header_title">
+          <p class="line-1">Développeur<br />FullStack </p>
+          <!-- <p class="line-2"><br />Designer <br />UI/UX</p> -->
+        </h1>
         <p class="header_description">
           Développeur FullStack JavaScript & TypeScript, passionné par la création d'applications modernes 
           avec des technologies telles que React, Next.js et NestJS.
@@ -25,16 +28,37 @@
   
 
   export default {
-    components: { Version, Button , IconeDeplacable},
-    methods: {
-      handleClick() {
-        console.log("Bouton cliqué !");
+  components: { Version, Button, IconeDeplacable },
+  mounted() {
+    const line1 = document.querySelector('.line-1');
+    const line2 = document.querySelector('.line-2');
+
+    let visible = true;
+    line1.style.display = 'block';
+    line2.style.display = 'none';
+
+    setInterval(() => {
+      if (visible) {
+        line1.style.display = 'none';
+        line2.style.display = 'block';
+      } else {
+        line1.style.display = 'block';
+        line2.style.display = 'none';
       }
+      visible = !visible;
+    }, 2000);
+  },
+  methods: {
+    handleClick() {
+      console.log("Bouton cliqué !");
     }
   }
+}
+
   </script>
   
   <style scoped>
+  
     .iconeFloatant{
       list-style: none;
       display: flex;
@@ -55,6 +79,7 @@
     }
 
     .header_title {
+        position: relative;
         color: var(--accent-color);
         font-family: var(--font-orbitron);
         font-weight: 800;
