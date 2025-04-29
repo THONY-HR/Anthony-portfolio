@@ -9,7 +9,7 @@
           Développeur FullStack JavaScript & TypeScript, passionné par la création d'applications modernes 
           avec des technologies telles que React, Next.js et NestJS.
         </p>
-        <Button libelle="Découvrir" lien="#about" @click="handleClick" />
+        <Button width-b="300" height-b="60" libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">
           <li><IconeDeplacable imgHeight="180" imgWidth="180" src="/Anthony-icon/astronote.png" /></li>
           <li><IconeDeplacable imgHeight="200" imgWidth="200" src="/Anthony-icon/fusee.png" /></li>

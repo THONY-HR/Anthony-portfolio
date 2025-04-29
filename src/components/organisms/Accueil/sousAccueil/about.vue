@@ -76,11 +76,11 @@ export default {
 
 <style>
 .info-pers{
-  margin-top: 5rem;
-  width: 90%;
-  height: 800px;
-  /* background-color: aqua; */
+  padding-top: 4rem;
   margin-left: -3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .titre {
