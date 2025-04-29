@@ -76,7 +76,7 @@ export default {
 
 <style>
 .info-pers{
-  padding-top: 4rem;
+  padding-top: 7rem;
   margin-left: -3rem;
   display: flex;
   flex-wrap: wrap;
