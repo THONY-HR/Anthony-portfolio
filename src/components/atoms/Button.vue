@@ -49,6 +49,12 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@media (max-width: 1024px) {
+  button {
+    width: 100% !important;
+    font-size:1em !important;
+  }
+}
 /* 💊 Tablette : max-width 768px */
 @media (max-width: 768px) {
   button {

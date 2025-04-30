@@ -116,7 +116,7 @@
     },
     data() {
       return {
-        email: "rantonirinaanthony@gmail.com"
+        email: "rantonirinaanthony@gmail.com",
       };
     },
     methods: {
