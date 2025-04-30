@@ -61,7 +61,37 @@
       </div>
     </div>
     <div class="stack-info">
-      <div class="stack">Stack</div>
+      <div class="stack">
+        <div class="partie">
+          <p>Ma passion</p>
+          <h1>Ma Stack :</h1>
+        </div>
+        <div class="partie">
+          <div class="partie-contener">
+            <div class="list-stack">
+              <span class="language">JavaScript</span>
+              <span class="language">Python</span>
+              <span class="language">NodeJS</span>
+              <span class="language">Angular</span>
+              <span class="language">React</span>
+              <span class="language">JavaScript</span>
+              <span class="language">Python</span>
+              <span class="language">NodeJS</span>
+              <span class="language">Angular</span>
+              <span class="language">React</span>
+            </div>
+            <div class="list-stack">
+              <span class="language">C</span>
+              <span class="language">.NET</span>
+              <span class="language">Spring</span>
+              <span class="language">Perl</span>
+              <span class="language">PHP</span>
+              <span class="language">Java</span>
+              <span class="language">Heroku</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="info">Info</div>
     </div>
   </div>
@@ -94,7 +124,50 @@
 </script>
   
 <style scoped>
-  .partie{
+  .stack .partie-contener{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .list-stack{
+    display: flex;
+    flex-direction: column;
+  }
+  .language{
+    width: 7rem;
+    height: 50px;
+    background-color: var(--secondary-color);
+    margin: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 0.5rem;
+  }
+  .stack .partie{
+    /* background-color: red; */
+    width: 85%;
+    height: 90%;
+    margin: 1rem;
+    color: var(--accent-color);
+    font-family: var(--font-poppins);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+
+  .stack .partie h1{
+    font-family: var(--font-orbitron);
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .personnage .partie{
     color: var(--accent-color);
     font-family: var(--font-poppins);
     font-weight: 100;
@@ -111,7 +184,7 @@
     gap: 3rem;
     
   }
-  .partie .image{
+  .personnage .partie .image{
     /* background-color: rgb(10, 16, 202); */
     width: 40%;
     height: 90%;
@@ -122,10 +195,10 @@
     align-items: center;
     justify-content: center;
   }
-  .partie .image img{
+  .personnage .partie .image img{
     width: 200px;
   }
-  .partie .contenu{
+  .personnage .partie .contenu{
     width: 50%;
     /* background-color: red; */
     height: 90%;
@@ -138,7 +211,7 @@
     text-align: center;
     line-height: 1.6;
   }
-  .partie .contenu h1{
+  .personnage .partie .contenu h1{
     font-family: var(--font-orbitron);
     text-align: center;
     font-weight: 600;
@@ -181,6 +254,13 @@
     border-radius: 5px;
     width: 100%;
     height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 200px;
+    overflow: hidden;
   }
   .info{
     border: 1px solid var(--accent-color);
@@ -194,6 +274,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
   }
   @media (max-width: 1440px) {
     #contener{
@@ -222,20 +303,35 @@
       flex-direction: column;
       gap: 0.5rem;
     }
-    .partie{
+    .personnage .partie{
       margin: 1.5rem;
       font-size: 10px;
     }
-    .partie .image img{
+    .personnage .partie .image img{
       width: 150px;
     }
-    .partie .contenu{
+    .personnage .partie .contenu{
       font-weight: lighter;
    }
-    .partie .contenu h1{
+    .personnage .partie .contenu h1{
       text-align: center;
       font-weight: 600;
       font-size: 25px;
+    }
+
+    .stack .partie{
+      width: 60%;
+    }
+    .language{
+      scale: 0.85;
+      margin: 0;
+    }
+    .stack .partie p{
+      font-size: 10px;
+      font-weight: 200;
+    }
+    .stack .partie h1{
+      font-size: 20px;
     }
   }
   @media (max-width: 768px) {
@@ -256,6 +352,20 @@
     .personnage{
       width:97.5%;
       height: 100%;
+    }
+    .stack .partie{
+      width: 50%;
+
+    }
+    .stack .partie-contener{
+      margin: -5rem;
+    }
+    .language{
+      scale: 0.7;
+      margin: 0;
+    }
+    .stack .partie h1{
+      font-size: 20px;
     }
   }
   @media (max-width: 435px) {
@@ -278,22 +388,35 @@
       width:95%;
       height: 100%;
     }
-    .partie{
+    .personnage .partie{
       font-size: 9px;
     }
-    .partie .image{
+    .personnage .partie .image{
       display: none;
     }
-    .partie .contenu{
+    .personnage .partie .contenu{
       width: 95%;
       font-weight: lighter;
       text-align: justify;
       letter-spacing: 1px;
     }
-    .partie .contenu h1{
+    .personnage .partie .contenu h1{
       text-align: center;
       font-weight: 600;
       font-size: 15px;
+    }
+
+    .language{
+      scale: 0.5;
+      margin: -10px;
+      margin-left: -31px;
+    }
+    .stack .partie p{
+      font-size: 8px;
+      font-weight: 100;
+    }
+    .stack .partie h1{
+      font-size: 12px;
     }
   }
 </style>
