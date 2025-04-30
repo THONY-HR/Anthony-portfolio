@@ -92,38 +92,61 @@
           </div>
         </div>
       </div>
-      <div class="info">Info</div>
+      <div class="info">
+        <p>Où que vous soyez</p>
+        <h1>En un click</h1>
+        <div class="donne">
+            <a href="/cv/Herinantenaina_Anthony_CV.pdf" download="Herinantenaina Anthony CV.pdf"   >
+              <Button class="download" libelle="Telecharger CV" widthB="300"/>
+            </a>
+            <Button @click="copyEmail" libelle="Copier Email" widthB="150" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
   
 <script>
-  // import Button from "@/components/atoms/Button.vue";
-  // export default {
-  //   components: {
-  //     Button
-  //   },
-  //   data() {
-  //     return {
-  //       email: "rantonirinaanthony@gmail.com"
-  //     };
-  //   },
-  //   methods: {
-  //     async copyEmail() {
-  //       try {
-  //         await navigator.clipboard.writeText(this.email);
-  //         alert("Email copié : " + this.email);
-  //       } catch (err) {
-  //         alert("Erreur lors de la copie.");
-  //         console.error(err);
-  //       }
-  //     }
-  //   }
-  // };
+  import Button from "@/components/atoms/Button.vue";
+  import ButtonDown from "@/components/atoms/ButtonDownload.vue"
+  export default {
+    components: {
+      Button, ButtonDown
+    },
+    data() {
+      return {
+        email: "rantonirinaanthony@gmail.com"
+      };
+    },
+    methods: {
+      async copyEmail() {
+        try {
+          await navigator.clipboard.writeText(this.email);
+          alert("Email copié : " + this.email);
+        } catch (err) {
+          alert("Erreur lors de la copie.");
+          console.error(err);
+        }
+      }
+    }
+  };
 </script>
   
 <style scoped>
+  .info .donne{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .info h1{
+    font-family: var(--font-orbitron);
+    font-size: 30px;
+  }
+  .info p{
+    font-weight: 100;
+  }
+
   .stack .partie-contener{
     display: flex;
     flex-direction: row;
@@ -266,7 +289,14 @@
     border: 1px solid var(--accent-color);
     border-radius: 5px;
     width: 100%;
-    height: 98%;     
+    height: 98%;
+    color: var(--accent-color);  
+    font-family: var(--font-poppins);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .stack-info{
     height: 100%;
@@ -288,6 +318,9 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+    }
+    .info .donne{
+      gap: 1rem;
     }
   }
   @media (max-width: 1024px) {
@@ -333,6 +366,9 @@
     .stack .partie h1{
       font-size: 20px;
     }
+    .info .donne{
+      gap: 1rem;
+    }
   }
   @media (max-width: 768px) {
     #contener {
@@ -366,6 +402,16 @@
     }
     .stack .partie h1{
       font-size: 20px;
+    }
+    .info .donne{
+      scale: 0.9;
+      transition: 2s;
+    }
+    .info p{
+      font-size: 8px;
+    }
+    .info h1{
+      font-size: 19px;
     }
   }
   @media (max-width: 435px) {
@@ -417,6 +463,12 @@
     }
     .stack .partie h1{
       font-size: 12px;
+    }
+    .info p{
+      font-size: 8px;
+    }
+    .info h1{
+      font-size: 15px;
     }
   }
 </style>

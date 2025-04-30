@@ -38,6 +38,7 @@ export default {
 
 <style scoped>
 button {
+  cursor: pointer;
   border-radius: 5px;
   border: 1px solid var(--accent-color);
   background-color: var(--background-dark);
@@ -51,16 +52,16 @@ button {
 /* 💊 Tablette : max-width 768px */
 @media (max-width: 768px) {
   button {
-    width: 80% !important;
-    font-size: 1em !important;
+    width: 100% !important;
+    font-size: 0.8em !important;
   }
 }
 /* 📱 Mobile (Android) : max-width 480px */
 @media (max-width: 480px) {
   button {
-    width: 90% !important;
+    width: 100% !important;
     height: 40px !important;
-    font-size: 0.9em !important;
+    font-size: 0.5em !important;
   }
 }
 </style>
