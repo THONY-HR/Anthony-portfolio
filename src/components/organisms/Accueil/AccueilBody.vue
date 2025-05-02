@@ -33,7 +33,8 @@ export default {
 }
 
 .about {
-  margin-top: 15rem;
+  scale: 0.98;
+  margin-top: 10rem;
   width: 100%;
   min-height: 747px;
   display: flex;
@@ -47,13 +48,13 @@ export default {
 @media (max-width: 768px) {
   .about{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
 }
 
 @media (max-width: 480px) {
   .about{
-    margin-top: 2rem;
+    margin-top: -1rem;
   }
 }
 </style>

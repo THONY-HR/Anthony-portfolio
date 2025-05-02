@@ -153,6 +153,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
   }
   .list-stack{
     display: flex;
@@ -305,6 +306,12 @@
     flex-direction: column;
     gap: 0.5rem;
 
+    background-color: var(--text-dark);
+    background-image: linear-gradient(
+      32deg,
+      var(--background-dark) 30px,
+      transparent
+    );
   }
   @media (max-width: 1440px) {
     #contener{
@@ -367,6 +374,7 @@
       font-size: 20px;
     }
     .info .donne{
+      
       gap: 1rem;
     }
   }

@@ -32,6 +32,18 @@
     <section class="info-pers">
       <InfoPers />
     </section>  
+    <section class="carousel-logo">
+      <CarroselLogo :logos="[
+        { src: '/Anthony-icon/back/node.png', name: 'Node.js' },
+        { src: '/Anthony-icon/back/c.png', name: 'Language C' },
+        { src: '/Anthony-icon/back/php.png', name: 'PHP' },
+        { src: '/Anthony-icon/back/python.png', name: 'Python' },
+        { src: '/Anthony-icon/back/java.png', name: 'Java' },
+        { src: '/Anthony-icon/back/perl.png', name: 'Perl' },
+        { src: '/Anthony-icon/front/vue.png', name: 'Vue.js' },
+        { src: '/Anthony-icon/front/ang.png', name: 'AngularJS' },
+      ]" />
+    </section>  
   </div>
 </template>
 
@@ -40,6 +52,7 @@ import Bloc from '@/components/atoms/Bloc.vue'
 import TitreAnime from '@/components/atoms/TitreAnime.vue'
 import InconComp from '@/components/atoms/InconComp.vue'
 import InfoPers from '@/components/organisms/Accueil/sousAccueil/infoPers.vue'
+import CarroselLogo from '@/components/molecules/CarroselLogo.vue'
 
 export default {
   name: "AboutSection",
@@ -47,12 +60,21 @@ export default {
     Bloc,
     TitreAnime,
     InconComp,
-    InfoPers
+    InfoPers,
+    CarroselLogo
   },
   data() {
   return {
     largeurBloc: 480,
-    hauteurBloc: 220
+    hauteurBloc: 220,
+    languageLogos: [
+      { src: '/Anthony-icon/front/vue.png', alt: 'Vue.js' },
+      { src: '/Anthony-icon/front/react.png', alt: 'React' },
+      { src: '/Anthony-icon/front/ang.png', alt: 'Angular' },
+      { src: '/Anthony-icon/back/node.png', alt: 'Node.js' },
+      { src: '/Anthony-icon/back/php.png', alt: 'PHP' },
+      { src: '/Anthony-icon/back/python.png', alt: 'Python' },
+    ]
   };
 },
   mounted() {
@@ -82,7 +104,11 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.carousel-logo{
+  padding-top: 7rem;
+  margin-left: -3rem;
+  width: 100%;
+}
 .titre {
   width: 100%;
   height: 100px;
@@ -115,6 +141,12 @@ export default {
     padding-top: 2rem;
     gap: 3rem;
   }
+
+  .carousel-logo{
+    margin-top: -2rem;
+    scale: 0.8;
+    width: 125%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -126,6 +158,12 @@ export default {
   .competence {
     display: list-item;
     list-style: none;
+  }
+
+  .carousel-logo{
+    margin-top: -5rem;
+    scale: 0.5;
+    width: 200%;
   }
 }
 </style>
