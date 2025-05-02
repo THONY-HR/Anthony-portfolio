@@ -35,7 +35,7 @@ export default {
 .about {
   scale: 0.98;
   margin-top: 10rem;
-  /* margin-left: 0.6rem; */
+  margin-left: 0.2rem;
   width: 100%;
   min-height: 747px;
   display: flex;
