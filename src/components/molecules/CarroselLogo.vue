@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .wrapper {
-  width: 90%;
+  width: 99%;
   max-width: 1536px;
   margin: auto;
   overflow: hidden;

@@ -145,7 +145,7 @@ export default {
   .carousel-logo{
     margin-top: -2rem;
     scale: 0.8;
-    width: 125%;
+    width: 114%;
   }
 }
 
@@ -162,8 +162,16 @@ export default {
 
   .carousel-logo{
     margin-top: -5rem;
-    scale: 0.5;
-    width: 200%;
+    scale: 0.7;
+    width: 105%;
+  }
+}
+
+@media (max-width: 376px) {
+  .carousel-logo{
+    margin-top: -5rem;
+    scale: 0.6;
+    width: 138%;
   }
 }
 </style>
