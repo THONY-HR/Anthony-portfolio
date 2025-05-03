@@ -92,8 +92,12 @@ export default {
 }
 
 @media (max-width: 480px) {
+  .header{
+    margin-left: -0.3rem;
+  }
   .about {
     margin-top: 1rem;
+    margin-left: 0.45rem;
   }
   .listProject {
     margin-top: 2rem;
