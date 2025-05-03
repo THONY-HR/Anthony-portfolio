@@ -105,7 +105,7 @@ export default {
   justify-content: center;
 }
 .carousel-logo{
-  padding-top: 7rem;
+  padding-top: 10rem;
   margin-left: -3rem;
   width: 100%;
 }

@@ -44,15 +44,18 @@ export default {
         flex-direction: row;
         gap: 3rem;
         justify-content: center;
-        align-items: center;       
+        align-items: center;
+        transition: 1s;   
     }
     @media (max-width: 768px) {
         #contener{
             margin-top: -18rem;
         }
         .projet{
-            scale: 0.8;
+            scale: 0.95;
             margin-top: -3rem;
+            margin-left: -3.2rem;
+            transition: 1s;
         }
         .titre{
             font-size: 1.4rem;
@@ -65,10 +68,11 @@ export default {
         }
         .projet{
             margin-left: -2.3rem;
-            margin-top: -10rem;
+            margin-top: -5rem;
             flex-direction: column;
             gap: 1.5rem;
-            scale: 0.7;
+            scale: 0.90;
+            transition: 1s;
         }
         .titre{
             font-size: 1rem;
