@@ -74,34 +74,28 @@ export default {
   position: relative;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .about {
+    margin-top: 2rem;
     text-align: center;
-    margin-top: 1rem;
-    transition: 1s;
   }
   .listProject {
-    margin-top: -2rem;
+    margin-top: -1rem;
     background: linear-gradient(
       to bottom,
       var(--background-dark) 5%,
       var(--primary-color) 40%,
       var(--background-dark) 55%
     );
-    transition: 1s;
   }
 }
 
 @media (max-width: 480px) {
-  .header{
-    margin-left: -0.78rem;    
-  }
   .about {
-    margin-top: -1rem;
-    margin-left: -0.1rem;
+    margin-top: 1rem;
   }
   .listProject {
-    height: 40rem;
     margin-top: 2rem;
     background: linear-gradient(
       to bottom,
