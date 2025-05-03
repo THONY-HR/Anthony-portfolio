@@ -97,7 +97,7 @@ export default {
   }
   .about {
     margin-top: 1rem;
-    margin-left: 0.45rem;
+    margin-left: 1rem;
   }
   .listProject {
     margin-top: 2rem;
