@@ -1,23 +1,36 @@
-:root {
-    /* Palette principale */
+  /* :root {
     --primary-color: #C51F5D;
     --tertiary-color: #ff1994;
     --background-dark: #141D26;
     --secondary-color: #243447;
     --text-light: #E2E2D2;
     --accent-color: #FFFFFF;
-  
-    /* Typographies */
     --font-orbitron: 'Orbitron', sans-serif;
     --font-poppins: 'Poppins', sans-serif;
     --font-exo2: 'Exo 2', sans-serif;
-  
-    /* 🔥 Couleurs contrastées pour animations, hover, etc. */
-    --primary-contrast: #FF4F81;         /* plus flashy que --primary-color */
-    --tertiary-contrast: #FF69B4;        /* rose fluo, plus éclatant */
-    --background-light: #1A2634;         /* version plus claire du background */
-    --secondary-contrast: #3C5A72;       /* bleu plus clair et vibrant */
-    --text-dark: #121212;                /* pour texte sombre sur fond clair */
-    --accent-contrast: #FFD700;          /* doré pour attirer l’attention */
+    --primary-contrast: #FF4F81;         
+    --tertiary-contrast: #FF69B4;      
+    --background-light: #1A2634;    
+    --secondary-contrast: #3C5A72;    
+    --text-dark: #121212;          
+    --accent-contrast: #FFD700;   
+  } */
+
+
+  :root {
+    --primary-color: #0056b3; /* Professional blue */
+    --tertiary-color: #007acc; /* Subtle blue accent */
+    --background-dark: #1a1a1a; /* Neutral dark background */
+    --secondary-color: #0359ae; /* Muted dark blue-gray */
+    --text-light: #f8f9fa; /* Soft white for text */
+    --accent-color: #ffffff; /* Neutral white accent */
+    --font-orbitron: 'Orbitron', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-exo2: 'Exo 2', sans-serif;
+    --primary-contrast: #003d80; /* Darker blue for contrast */
+    --tertiary-contrast: #005f99; /* Muted blue contrast */
+    --background-light: #f4f4f4; /* Light neutral background */
+    --secondary-contrast: #4a6572; /* Subtle gray-blue contrast */
+    --text-dark: #212529; /* Professional dark gray for text */
+    --accent-contrast: #ffc107; /* Gold for subtle highlights */
   }
-  
