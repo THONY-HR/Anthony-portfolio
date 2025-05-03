@@ -43,7 +43,7 @@
         { src: '/Anthony-icon/front/vue.png', name: 'Vue.js' },
         { src: '/Anthony-icon/front/ang.png', name: 'AngularJS' },
       ]" />
-    </section>  
+    </section> 
   </div>
 </template>
 
