@@ -9,8 +9,8 @@
           <!-- <p class="line-2"><br />Designer <br />UI/UX</p> -->
         </h1>
         <p class="header_description">
-          Développeur FullStack JavaScript & TypeScript, passionné par la création d'applications modernes 
-          avec des technologies telles que React, Next.js et NestJS.
+          Développeur Full Stack JavaScript/TypeScript (Vue.js, React, Next.js, Node.js, Symfony, Java, Spring), orienté UX/UI et API. 
+          Polyvalent, rigoureux et créatif, je conçois des applications web modernes, robustes et bien conçues.
         </p>
         <Button width-b="300" height-b="60" libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">
