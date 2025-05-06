@@ -20,7 +20,7 @@
         <InconComp src="/Anthony-icon/back/php.png" alt="PHP" />
         <InconComp src="/Anthony-icon/back/python.png" alt="Python" />
       </Bloc>
-      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Base de donne" moi-emote="/Anthony-icon/bdd.png" >
+      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Base de données" moi-emote="/Anthony-icon/bdd.png" >
         <InconComp src="/Anthony-icon/bdd/oracle.png" alt="Oracle" />
         <InconComp src="/Anthony-icon/bdd/postgres.png" alt="Postgres" />
         <InconComp src="/Anthony-icon/bdd/mysql.png" alt="MySQL" />
