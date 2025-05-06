@@ -4,7 +4,7 @@
       <TitreAnime text="Présentation" />
     </div>
     <div class="competence">
-      <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/Anthony-icon/backEnd.png">
+      <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/Anthony-icon/UI_UX.png">
         <InconComp src="/Anthony-icon/front/vue.png" alt="VueJS" />
         <InconComp src="/Anthony-icon/front/ang.png" alt="Angular" />
         <InconComp src="/Anthony-icon/front/js.png" alt="JavaScript" />
@@ -20,7 +20,12 @@
         <InconComp src="/Anthony-icon/back/php.png" alt="PHP" />
         <InconComp src="/Anthony-icon/back/python.png" alt="Python" />
       </Bloc>
-      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Designer-UI/UX" moi-emote="/Anthony-icon/UI_UX.png" >
+      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Base de donne" moi-emote="/Anthony-icon/bdd.png" >
+        <InconComp src="/Anthony-icon/bdd/oracle.png" alt="Oracle" />
+        <InconComp src="/Anthony-icon/bdd/postgres.png" alt="Postgres" />
+        <InconComp src="/Anthony-icon/bdd/mysql.png" alt="MySQL" />
+      </Bloc>
+      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Designer-UI/UX" moi-emote="/Anthony-icon/Artboard.png" >
         <InconComp src="/Anthony-icon/UI_UX/illustrator.png" alt="Illustrator" />
         <InconComp src="/Anthony-icon/UI_UX/photoshop.png" alt="Photoshop" />
         <InconComp src="/Anthony-icon/UI_UX/indesign.png" alt="InDesign" />
@@ -40,8 +45,24 @@
         { src: '/Anthony-icon/back/python.png', name: 'Python' },
         { src: '/Anthony-icon/back/java.png', name: 'Java' },
         { src: '/Anthony-icon/back/perl.png', name: 'Perl' },
+
         { src: '/Anthony-icon/front/vue.png', name: 'Vue.js' },
         { src: '/Anthony-icon/front/ang.png', name: 'AngularJS' },
+        { src: '/Anthony-icon/front/css.png', name: 'CSS' },
+        { src: '/Anthony-icon/front/html.png', name: 'HTML' },
+        { src: '/Anthony-icon/front/js.png', name: 'JavaScript' },
+        { src: '/Anthony-icon/front/ts.png', name: 'Typescript' },
+
+        { src: '/Anthony-icon/bdd/oracle.png', name: 'Oracle' },
+        { src: '/Anthony-icon/bdd/postgres.png', name: 'Postgres' },
+        { src: '/Anthony-icon/bdd/mysql.png', name: 'MySQL' },
+
+        { src: '/Anthony-icon/UI_UX/figma.png', name: 'Figma' },
+        { src: '/Anthony-icon/UI_UX/illustrator.png', name: 'Illustrator' },
+        { src: '/Anthony-icon/UI_UX/indesign.png', name: 'InDesign' },
+        { src: '/Anthony-icon/UI_UX/photoshop.png', name: 'Photoshop' },
+        { src: '/Anthony-icon/UI_UX/premiere-pro.png', name: 'Premier Pro' },
+        { src: '/Anthony-icon/UI_UX/xd.png', name: 'XD' },
       ]" />
     </section> 
   </div>

@@ -50,7 +50,7 @@ export default {
   display: flex;
   gap: 20px;
   width: max-content;
-  animation: scrollLeft 30s linear infinite;
+  animation: scrollLeft 40s linear infinite;
 }
 
 .item {
