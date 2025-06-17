@@ -2,7 +2,7 @@
   <main class="container">
     <AccueilHeader />
     <AccueilBody />
-    <AccueilFooter />
+    <AccueilFooter/>
   </main>
 </template>
 

@@ -8,19 +8,30 @@
   <section class="listProject">
     <ListProject />
   </section> 
+  <section class="contact" id="contact-me">
+    <Contact/>
+  </section>
 </template>
 
 <script>
 import Header from './sousAccueil/header.vue'
 import About from './sousAccueil/about.vue'
+import Contact from '@/components/organisms/Accueil/sousAccueil/contact.vue'
 import ListProject from '@/components/organisms/Accueil/sousAccueil/listProject.vue'
 
 export default {
-  components: { Header , About, ListProject },
+  components: { Header , About, ListProject, Contact},
 }
 </script>
 
 <style scoped>
+.contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .listProject {
   height: 40rem;
   display: flex;
@@ -36,7 +47,6 @@ export default {
     var(--background-dark) 65%
   );
   z-index: 10;
-  position: relative;
 }
 
 .header {
@@ -82,6 +92,8 @@ export default {
   }
   .listProject {
     margin-top: -1rem;
+    margin-bottom: -200px;
+    
     background: linear-gradient(
       to bottom,
       var(--background-dark) 5%,
@@ -99,8 +111,12 @@ export default {
     margin-top: 1rem;
     margin-left: 1rem;
   }
+  .contact{
+    scale: 0.8;
+  }
   .listProject {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     background: linear-gradient(
       to bottom,
       var(--background-dark) 2%,

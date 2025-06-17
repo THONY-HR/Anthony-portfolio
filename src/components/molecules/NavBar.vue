@@ -7,7 +7,7 @@
     <ul class="droite">
       <li><a href="#about">Ma personnalité</a></li>
       <li><a href="#">Le développement</a></li>
-      <li><a href="#">Contactez-moi</a></li>
+      <li><a href="#contact-me">Contactez-moi</a></li>
       <li></li>
     </ul>
   </div>

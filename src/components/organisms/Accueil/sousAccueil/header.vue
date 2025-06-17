@@ -9,8 +9,9 @@
           <!-- <p class="line-2"><br />Designer <br />UI/UX</p> -->
         </h1>
         <p class="header_description">
-          Développeur Full Stack JavaScript/TypeScript (Vue.js, React, Next.js, Node.js, Symfony, Java, Spring), orienté UX/UI et API. 
-          Polyvalent, rigoureux et créatif, je conçois des applications web modernes, robustes et bien conçues.
+         Développeur full stack passionné avec un œil pour le design UI/UX. Je cherche un stage pour allier technique et créativité à
+travers des projets concrets. Rigoureux, curieux et polyvalent, je m'investis dans la conception de solutions innovantes et
+bien pensées.
         </p>
         <Button width-b="300" height-b="60" libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">

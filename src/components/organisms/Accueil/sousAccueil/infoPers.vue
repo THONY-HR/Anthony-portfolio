@@ -3,9 +3,9 @@
     <div class="personnage">
       <div class="partie">
         <div class="contenu">
-          <h1>Le personnage</h1>
+          <h1>Euu moi</h1>
           <p>
-            Je m'appelle HERINANTENAINA Rantonrina Anthony, passionné par le développement web, le design d'interfaces et 
+            C'est HERINANTENAINA Rantonrina Anthony, passionné par le développement web, le design d'interfaces et 
             la création de solutions numériques innovantes. Curieux, rigoureux et créatif, j'ai construit un profil polyvalent 
             mêlant développement full-stack, UI/UX design, graphisme et gestion de projets. J'aime concevoir des expériences 
             utilisateur cohérentes, performantes et esthétiques, en alliant technique et sens du détail visuel.
@@ -20,7 +20,7 @@
           <h1>Mes origines</h1>
           <p>
             Mon parcours m'a amené à explorer des univers variés : programmation (Java, TypeScript, Python...), 
-            développement web et mobile, conception graphique, et projets complets comme STELLAR. 
+            développement web et mobile, conception graphique, et projets complets comme <a href="https://github.com/THONY-HR/Stellar.git">STELLAR</a>. 
             Avec chaque nouvelle expérience — personnelle, académique ou professionnelle — j'ai affiné ma vision 
             du produit et renforcé mes compétences techniques et créatives. Cette diversité fait aujourd'hui ma force : 
             une approche transversale qui relie code, design et stratégie.
@@ -37,7 +37,7 @@
             Il n'existe pas, mais j'essaie chaque jour de m'en rapprocher. Mon approche repose sur la remise en question, 
             la curiosité et la recherche d'amélioration continue. J'accorde autant d'importance au code propre et 
             maintenable qu'à l'expérience utilisateur ou à la cohérence visuelle. C'est cette exigence qui me pousse 
-            à toujours aller plus loin.
+            à toujours aller plus loin....
           </p>          
         </div>
         <div class="image">
@@ -49,10 +49,9 @@
           <h1>Mes objectifs</h1>
           <p>
             Je veux continuer à apprendre, créer et évoluer dans des projets stimulants. Mon cœur balance entre le 
-            Front-end et le Back-end, avec un intérêt particulier pour les frameworks modernes comme Next.js 14 qui 
-            unifient les deux mondes. Je souhaite contribuer à des projets ambitieux, où je peux allier développement, 
-            design et réflexion produit, tout en mettant en œuvre des pratiques solides : tests, CI/CD, accessibilité, 
-            performance et bonnes pratiques d'architecture. Mon but : allier esthétique, technique et impact.
+            Front-end et le Back-end. Je souhaite contribuer à des projets ambitieux, où je peux allier développement, 
+            design et réflexion produit, tout en mettant en œuvre des pratiques solides :performance et bonnes pratiques 
+            d'architecture. Mon but : allier esthétique, technique et impact.
           </p>          
         </div>
         <div class="image">
