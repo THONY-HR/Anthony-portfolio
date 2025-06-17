@@ -1,5 +1,11 @@
 # Anthony-portfolio
 
+<p align="center">
+  <a href="https://anthony-portfolio-hazel.vercel.app" target="_blank">
+    <img src="demo/demo.png" alt="Aperçu de mon portfolio"/>
+  </a>
+</p>
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
