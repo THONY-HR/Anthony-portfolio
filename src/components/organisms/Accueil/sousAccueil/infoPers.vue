@@ -3,13 +3,14 @@
     <div class="personnage">
       <div class="partie">
         <div class="contenu">
-          <h1>Euu moi</h1>
+          <h1>À propos de moi</h1>
           <p>
-            C'est HERINANTENAINA Rantonrina Anthony, passionné par le développement web, le design d'interfaces et 
-            la création de solutions numériques innovantes. Curieux, rigoureux et créatif, j'ai construit un profil polyvalent 
-            mêlant développement full-stack, UI/UX design, graphisme et gestion de projets. J'aime concevoir des expériences 
-            utilisateur cohérentes, performantes et esthétiques, en alliant technique et sens du détail visuel.
-          </p>         
+            Je suis <strong>HERINANTENAINA Rantonrina Anthony</strong>, passionné par le développement web, le design d’interfaces 
+            et la création de solutions numériques innovantes. Curieux, rigoureux et créatif, j’ai développé un profil polyvalent 
+            alliant <strong>développement full-stack</strong>, <strong>UI/UX design</strong>, <strong>graphisme</strong> et 
+            <strong>gestion de projets</strong>. Mon objectif est de concevoir des expériences utilisateur cohérentes, performantes 
+            et esthétiques, en combinant expertise technique et sens du détail visuel.
+          </p>       
         </div>
         <div class="image">
           <img src="/public/Anthony-icon/UI_UX.png">
@@ -19,12 +20,14 @@
         <div class="contenu">
           <h1>Mes origines</h1>
           <p>
-            Mon parcours m'a amené à explorer des univers variés : programmation (Java, TypeScript, Python...), 
-            développement web et mobile, conception graphique, et projets complets comme <a href="https://github.com/THONY-HR/Stellar.git">STELLAR</a>. 
-            Avec chaque nouvelle expérience — personnelle, académique ou professionnelle — j'ai affiné ma vision 
-            du produit et renforcé mes compétences techniques et créatives. Cette diversité fait aujourd'hui ma force : 
-            une approche transversale qui relie code, design et stratégie.
-          </p>          
+            Mon parcours m’a permis d’explorer différents domaines : 
+            <strong>programmation</strong> (Java, TypeScript, Python, C, C#, C++…), 
+            <strong>développement web et mobile</strong>, ainsi que 
+            <strong>conception graphique et UI/UX design</strong>.  
+            Cette diversité m’a aidé à affiner ma vision du produit et à développer une approche 
+            <strong>polyvalente</strong>, alliant technique, design et stratégie.
+          </p>
+
         </div>
         <div class="image">
           <img src="/public/Anthony-icon/backEnd.png">
@@ -55,7 +58,7 @@
           </p>          
         </div>
         <div class="image">
-          <img src="/public/Anthony-icon/fusee.png">
+          <img style="width: 150px;" src="/public/Anthony-icon/fusee.png">
         </div>
       </div>
     </div>

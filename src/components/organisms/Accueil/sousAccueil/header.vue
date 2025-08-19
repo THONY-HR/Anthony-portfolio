@@ -9,9 +9,7 @@
           <!-- <p class="line-2"><br />Designer <br />UI/UX</p> -->
         </h1>
         <p class="header_description">
-         Développeur full stack passionné avec un œil pour le design UI/UX. Je cherche un stage pour allier technique et créativité à
-travers des projets concrets. Rigoureux, curieux et polyvalent, je m'investis dans la conception de solutions innovantes et
-bien pensées.
+         Développeur full stack passionné, maîtrisant aussi bien le back-end que le front-end, avec un œil attentif pour le design UI/UX. Rigoureux, curieux et polyvalent, je conçois des solutions innovantes et bien pensées, alliant solidité technique et créativité.
         </p>
         <Button width-b="300" height-b="60" libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">

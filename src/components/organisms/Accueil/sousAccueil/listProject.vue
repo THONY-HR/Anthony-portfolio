@@ -4,9 +4,9 @@
             <h1>Mes Projets</h1>
         </div>
         <div class="projet">
-            <Project />
-            <Project />
-            <Project />
+            <Project description="STELLAR-Z" titre="STELLAR-Z" git="https://github.com/THONY-HR/Stellar"/>
+            <Project description="GESTION CINEMA" titre="GESTION CINEMA" git="https://github.com/THONY-HR/Cinema"/>
+            <Project description="E-Commerce FRUITS & LEGUMES" titre="FRUITS & LEGUMES" git="https://github.com/THONY-HR/Cinema"/>
         </div>
     </div>
 </template>

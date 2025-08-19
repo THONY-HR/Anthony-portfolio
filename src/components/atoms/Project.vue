@@ -707,7 +707,7 @@ export default {
               <div class="glow-3"></div>
             </div>
             <div class="subtitle">
-              <span>STELLAR</span>
+              <span>&copy;Anthony</span>
               <span class="highlight"></span>
             </div>
             <div class="card-particles">
