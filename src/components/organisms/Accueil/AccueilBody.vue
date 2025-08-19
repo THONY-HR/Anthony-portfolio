@@ -2,7 +2,7 @@
   <section class="header">
     <Header />
   </section>
-  <section class="about" id="about">
+  <section class="about">
     <About />
   </section>
   <section class="listProject">

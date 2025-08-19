@@ -9,20 +9,24 @@
 
       <div class="infos">
         <div class="bloc">
-          <strong>📍 Adresse</strong>
-          <span>Tsarafara Sabotsy / Namehana</span>
+          <strong>Adresse</strong>
+          <span>Antananarivo, MADAGASCAR</span>
         </div>
         <div class="bloc">
-          <strong>📞 Téléphones</strong>
-          <span>034 85 178 51 / 037 27 298 83</span>
-        </div>
-        <div class="bloc">
-          <strong>✉️ Email</strong>
-          <span>rantonirinaanthony@gmail.com</span>
-        </div>
-        <div class="bloc">
-          <strong>🌐 Portfolio</strong>
-          <span class="lien">anthony-portfolio-hazel.vercel.app</span>
+            <div class="bloc">
+              <strong>WhatsApp</strong>
+              <span> +261 34 85 178 51</span>
+            </div>
+            <div class="bloc">
+              <strong>Email</strong>
+              <span>rantonirinaanthony@gmail.com</span>
+            </div>
+            <a href="https://www.linkedin.com/in/anthony-herinantenaina/" style="text-decoration: none;">
+              <div class="bloc">
+                <strong>linkedin</strong>
+                <span style="color: white;" class="">anthony-herinantenaina</span>
+              </div>
+            </a>
         </div>
       </div>
     </div>
@@ -80,6 +84,18 @@ export default {
 </script>
 
 <style scoped>
+.header {
+  display: none; /* caché par défaut */
+}
+
+/* Tablettes et ordinateurs (≥ 768px) */
+@media (min-width: 768px) {
+  .header {
+    display: block; /* affiché sur tablette et desktop */
+  }
+}
+
+
 #contener-contact {
   width: 100%;
   padding: 20px;

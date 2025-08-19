@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="titre">
-      <TitreAnime text="Présentation" />
+      <TitreAnime text="Présentation" id="about"/>
     </div>
     <div class="competence">
       <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/Anthony-icon/UI_UX.png">
@@ -34,10 +34,10 @@
         <InconComp src="/Anthony-icon/UI_UX/figma.png" alt="Figma" />
       </Bloc>
     </div>
-    <section class="info-pers">
+    <section class="info-pers" >
       <InfoPers />
     </section>  
-    <section class="carousel-logo">
+    <section class="carousel-logo" id="developpement">
       <CarroselLogo :logos="[
         { src: '/Anthony-icon/back/node.png', name: 'Node.js' },
         { src: '/Anthony-icon/back/c.png', name: 'Language C' },
