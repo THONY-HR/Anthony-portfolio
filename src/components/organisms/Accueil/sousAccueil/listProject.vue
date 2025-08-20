@@ -7,6 +7,7 @@
             <Project description="STELLAR-Z" titre="STELLAR-Z" git="https://github.com/THONY-HR/Stellar"/>
             <Project description="GESTION CINEMA" titre="GESTION CINEMA" git="https://github.com/THONY-HR/Cinema"/>
             <Project description="E-Commerce FRUITS & LEGUMES" titre="FRUITS & LEGUMES" git="https://github.com/THONY-HR/Fruits_legumes"/>
+            <Project description="THE NEXT VOICE" titre="THE NEXT VOICE" git="https://cmj-association.com/the-next-voice"/>
         </div>
     </div>
 </template>
