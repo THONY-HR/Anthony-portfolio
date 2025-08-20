@@ -4,10 +4,12 @@
             <h1>Mes Projets</h1>
         </div>
         <div class="projet">
-            <Project description="STELLAR-Z" titre="STELLAR-Z" git="https://github.com/THONY-HR/Stellar"/>
+            
+            <Project description="THE NEXT VOICE" titre="THE NEXT VOICE" git="https://cmj-association.com/the-next-voice"/>
+            <Project class="pc" description="STELLAR-Z" titre="STELLAR-Z" git="https://github.com/THONY-HR/Stellar"/>
             <Project description="GESTION CINEMA" titre="GESTION CINEMA" git="https://github.com/THONY-HR/Cinema"/>
             <Project description="E-Commerce FRUITS & LEGUMES" titre="FRUITS & LEGUMES" git="https://github.com/THONY-HR/Fruits_legumes"/>
-            <Project description="THE NEXT VOICE" titre="THE NEXT VOICE" git="https://cmj-association.com/the-next-voice"/>
+            
         </div>
     </div>
 </template>
@@ -22,6 +24,15 @@ export default {
 }
 </script>
 <style scoped>
+    .pc {
+    display: none; /* caché par défaut */
+    }
+
+    @media (min-width: 1024px) { /* s’affiche seulement sur écran large (PC) */
+    .pc {
+        display: block;
+    }
+    }
     #contener{
         display: flex;
         flex-direction: column;
