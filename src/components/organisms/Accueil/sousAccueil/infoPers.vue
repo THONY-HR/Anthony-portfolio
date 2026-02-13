@@ -3,14 +3,11 @@
     <div class="personnage">
       <div class="partie">
         <div class="contenu">
-          <h1>À propos de moi</h1>
+         <h1>À propos de moi</h1>
           <p>
-            Je suis <strong>HERINANTENAINA Rantonrina Anthony</strong>, passionné par le développement web, le design d’interfaces 
-            et la création de solutions numériques innovantes. Curieux, rigoureux et créatif, j’ai développé un profil polyvalent 
-            alliant <strong>développement full-stack</strong>, <strong>UI/UX design</strong>, <strong>graphisme</strong> et 
-            <strong>gestion de projets</strong>. Mon objectif est de concevoir des expériences utilisateur cohérentes, performantes 
-            et esthétiques, en combinant expertise technique et sens du détail visuel.
-          </p>       
+          Je suis <strong>HERINANTENAINA Rantonrina Anthony</strong>, passionné par le design d’interfaces, le graphisme et le motion design. Créatif et rigoureux, je conçois des expériences visuelles et interactives innovantes, alliant <strong>UI/UX</strong>, <strong>graphisme</strong> et <strong>motion design</strong> pour des solutions numériques esthétiques et performantes.
+          </p>
+
         </div>
         <div class="image">
           <img src="/public/Anthony-icon/UI_UX.png">
@@ -20,28 +17,21 @@
         <div class="contenu">
           <h1>Mes origines</h1>
           <p>
-            Mon parcours m’a permis d’explorer différents domaines : 
-            <strong>programmation</strong> (Java, TypeScript, Python, C, C#, C++…), 
-            <strong>développement web et mobile</strong>, ainsi que 
-            <strong>conception graphique et UI/UX design</strong>.  
-            Cette diversité m’a aidé à affiner ma vision du produit et à développer une approche 
-            <strong>polyvalente</strong>, alliant technique, design et stratégie.
+          Mon parcours m’a permis d’explorer plusieurs domaines : <strong>UI/UX design</strong>, <strong>graphisme</strong>, <strong>motion design</strong> et développement web.  
+          Cette diversité m’a permis de développer une approche <strong>polyvalente</strong>, combinant créativité, design et sens du détail pour concevoir des expériences numériques impactantes.
           </p>
-
-        </div>
+        </div>  
         <div class="image">
           <img src="/public/Anthony-icon/backEnd.png">
         </div>
       </div>
       <div class="partie">
         <div class="contenu">
-          <h1>Le Parfait développeur ?</h1>
+          <h1>Le Parfait créatif ?</h1>
           <p>
-            Il n'existe pas, mais j'essaie chaque jour de m'en rapprocher. Mon approche repose sur la remise en question, 
-            la curiosité et la recherche d'amélioration continue. J'accorde autant d'importance au code propre et 
-            maintenable qu'à l'expérience utilisateur ou à la cohérence visuelle. C'est cette exigence qui me pousse 
-            à toujours aller plus loin....
-          </p>          
+          Il n'existe pas, mais je m'efforce chaque jour de m'en rapprocher. Ma démarche combine curiosité, rigueur et amélioration continue, en équilibrant <strong>design UI/UX</strong>, <strong>graphisme</strong>, <strong>motion design</strong> et qualité du code. Cette exigence me pousse à créer des expériences numériques esthétiques, cohérentes et performantes.
+          </p>
+        
         </div>
         <div class="image">
           <img src="/public/Anthony-icon/frontEnd.png">
@@ -51,11 +41,9 @@
         <div class="contenu">
           <h1>Mes objectifs</h1>
           <p>
-            Je veux continuer à apprendre, créer et évoluer dans des projets stimulants. Mon cœur balance entre le 
-            Front-end et le Back-end. Je souhaite contribuer à des projets ambitieux, où je peux allier développement, 
-            design et réflexion produit, tout en mettant en œuvre des pratiques solides :performance et bonnes pratiques 
-            d'architecture. Mon but : allier esthétique, technique et impact.
-          </p>          
+          Je souhaite continuer à créer et évoluer sur des projets stimulants, en combinant <strong>UI/UX</strong>, <strong>graphisme</strong> et <strong>motion design</strong> avec une approche technique solide. Mon objectif : concevoir des expériences numériques à la fois esthétiques, performantes et impactantes.
+          </p>
+         
         </div>
         <div class="image">
           <img style="width: 150px;" src="/public/Anthony-icon/fusee.png">

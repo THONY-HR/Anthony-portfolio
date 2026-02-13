@@ -1,16 +1,17 @@
 <template>
     <div class="header_top">
-        <Version class="version" versionPortfolio="Anthony-Portfolio 1.0" />
+        <Version class="version" versionPortfolio="Anthony-Portfolio 2.0" />
       </div>
       
       <div class="header_content">
         <h1 class="header_title">
-          <p class="line-1">Développeur<br />FullStack </p>
+          <p class="line-1">Designer & Développeur FullStack | UI/UX • Graphisme • Motion Design</p>
           <!-- <p class="line-2"><br />Designer <br />UI/UX</p> -->
         </h1>
         <p class="header_description">
-         Développeur full stack passionné, maîtrisant aussi bien le back-end que le front-end, avec un œil attentif pour le design UI/UX. Rigoureux, curieux et polyvalent, je conçois des solutions innovantes et bien pensées, alliant solidité technique et créativité.
+        Développeur FullStack et Designer créatif, spécialisé en UI/UX, graphisme et motion design. Rigoureux, curieux et polyvalent, je conçois des solutions innovantes alliant performance technique et expérience utilisateur soignée, tout en donnant vie à des projets visuellement impactants.
         </p>
+
         <Button width-b="300" height-b="60" libelle="Découvrir" lien="#about" @click="handleClick" />
         <ul class="iconeFloatant">
           <li><IconeDeplacable imgHeight="180" imgWidth="180" src="/Anthony-icon/astronote.png" /></li>
@@ -82,7 +83,7 @@
         color: var(--accent-color);
         font-family: var(--font-orbitron);
         font-weight: 800;
-        font-size: 60px;
+        font-size: 40px;
         letter-spacing: 0.2rem;
         margin-bottom: 6rem;
     }

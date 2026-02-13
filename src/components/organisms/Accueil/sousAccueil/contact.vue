@@ -4,7 +4,7 @@
     <div ref="exportSection" class="carte">
       <div class="header">
         <h1>HERINANTENAINA Anthony</h1>
-        <p class="sous-titre">Développeur Full Stack · UI/UX Designer</p>
+        <p class="sous-titre">Designer & Développeur FullStack | UI/UX • Graphisme • Motion Design</p>
       </div>
 
       <div class="infos">

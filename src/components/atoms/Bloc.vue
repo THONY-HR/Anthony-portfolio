@@ -79,7 +79,7 @@ export default {
 }
 
 .titre-fixe h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 0.2rem;
   margin: 0;

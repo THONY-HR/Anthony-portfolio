@@ -4,6 +4,14 @@
       <TitreAnime text="Présentation" id="about"/>
     </div>
     <div class="competence">
+      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="UI/UX • Graphisme • Motion Design" moi-emote="/Anthony-icon/Artboard.png" >
+        <InconComp src="/Anthony-icon/UI_UX/illustrator.png" alt="Illustrator" />
+        <InconComp src="/Anthony-icon/UI_UX/photoshop.png" alt="Photoshop" />
+        <InconComp src="/Anthony-icon/UI_UX/indesign.png" alt="InDesign" />
+        <InconComp src="/Anthony-icon/UI_UX/xd.png" alt="XD" />
+        <InconComp src="/Anthony-icon/UI_UX/premiere-pro.png" alt="Premier-pro" />
+        <InconComp src="/Anthony-icon/UI_UX/figma.png" alt="Figma" />
+      </Bloc>
       <Bloc vitesse="10" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Developpeur Front End" moi-emote="/Anthony-icon/UI_UX.png">
         <InconComp src="/Anthony-icon/front/vue.png" alt="VueJS" />
         <InconComp src="/Anthony-icon/front/ang.png" alt="Angular" />
@@ -24,14 +32,6 @@
         <InconComp src="/Anthony-icon/bdd/oracle.png" alt="Oracle" />
         <InconComp src="/Anthony-icon/bdd/postgres.png" alt="Postgres" />
         <InconComp src="/Anthony-icon/bdd/mysql.png" alt="MySQL" />
-      </Bloc>
-      <Bloc vitesse="6" :width-card="largeurBloc" :height-card="hauteurBloc" titre="Designer-UI/UX" moi-emote="/Anthony-icon/Artboard.png" >
-        <InconComp src="/Anthony-icon/UI_UX/illustrator.png" alt="Illustrator" />
-        <InconComp src="/Anthony-icon/UI_UX/photoshop.png" alt="Photoshop" />
-        <InconComp src="/Anthony-icon/UI_UX/indesign.png" alt="InDesign" />
-        <InconComp src="/Anthony-icon/UI_UX/xd.png" alt="XD" />
-        <InconComp src="/Anthony-icon/UI_UX/premiere-pro.png" alt="Premier-pro" />
-        <InconComp src="/Anthony-icon/UI_UX/figma.png" alt="Figma" />
       </Bloc>
     </div>
     <section class="info-pers" >
